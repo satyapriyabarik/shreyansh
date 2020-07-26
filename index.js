@@ -17,8 +17,9 @@ const appDiv = document.getElementById('page');
 var sdata='';
 var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
 $.getJSON(apidata,function(data){
-    
-for(var i=0;i<data.length;i++){
+   let sdataObj = data ;
+   console.log(sdataObj.length)
+for(var i=0;i< sdataObj.length;i++){
    // sdata+="<img src=\"+ data[i].imgurl +\">"
    sdata+="damini"
 }
