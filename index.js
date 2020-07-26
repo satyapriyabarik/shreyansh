@@ -4,6 +4,7 @@ import './css/news.css';
 import './css/custom.css';
 import './css/spacegallery.css';
 import './js/jquerylib.js';
+import './js/jquery-1.7.1.min.js'
 import './js/eye.js';
 import './js/spacegallery.js';
 import './js/jflip.js';
@@ -16,6 +17,7 @@ const appDiv = document.getElementById('page');
 var sdata={};
 var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
 $.getJSON(apidata,function(data){
+    console.log(data)
 for(var i=0;i<data.length;i++){
     sdata+="<img src=\"+ data[i].imgurl +\">"
 }
