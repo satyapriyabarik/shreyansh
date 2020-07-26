@@ -19,7 +19,8 @@ var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shrey
 $.getJSON(apidata,function(data){
     
 for(var i=0;i<data.length;i++){
-    sdata+="<img src=\"+ data[i].imgurl +\">"
+   // sdata+="<img src=\"+ data[i].imgurl +\">"
+   sdata+="damini"
 }
 })
 console.log(sdata)
