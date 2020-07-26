@@ -20,7 +20,7 @@ $.getJSON(apidata,function(data){
    let sdataObj = data ;
    console.log(sdataObj.length)
 for(var i=0;i< sdataObj.length;i++){
-   sdata+="<img src=\"+ data[i].imgurl +\">"
+   sdata+="<img src='+ data[i].imgurl +'>"
    
    console.log("nothing",sdata)
 }
