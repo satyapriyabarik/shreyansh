@@ -21,10 +21,11 @@ $.getJSON(apidata,function(data){
    console.log(sdataObj.length)
 for(var i=0;i< sdataObj.length;i++){
    // sdata+="<img src=\"+ data[i].imgurl +\">"
-   sdata+="damini"
+   sdata+="damini";
+   console.log("nothing",sdata)
 }
 })
-console.log(sdata)
+
 appDiv.innerHTML = "<div id='myGallery' class='spacegallery>"
 +sdata+
 "</div>";
