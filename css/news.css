@@ -1,0 +1,7 @@
+
+#page{width:900px;height:600px;border:2px solid silver;margin:0px auto;padding:0px auto;border-radius:30px;background:white;}
+#header{width:785px;height:100px;font-weight:bold;font-size:45px;text-align:center;float:left;background:white;}
+#footer{width:900px;height:50px;}
+#last{width:300px;height:200px;float:right;background:white;}
+#last:hover{-webkit-width:400; height:312;}
+.page{margin:0 auto;}
