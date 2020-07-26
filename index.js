@@ -15,7 +15,7 @@ import './js/layout.js';
 // Write Javascript code!
 const appDiv = document.getElementById('page');
 var sdata={};
-var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
+var apidata='http://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
 $.getJSON(apidata,function(data){
     console.log(data)
 for(var i=0;i<data.length;i++){
