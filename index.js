@@ -14,6 +14,7 @@ import './js/layout.js';
 // Write Javascript code!
 const appDiv = document.getElementById('page');
 appDiv.innerHTML = "<div id='myGallery' class='spacegallery>"
-+"<img src='https://raw.githubusercontent.com/satyapriyabarik/shreyansh/master/pics/shreyansh-1.jpg'>"+
++"<img src=\"https://raw.githubusercontent.com/satyapriyabarik/shreyansh/master/pics/shreyansh-1.jpg\">"+
++"<img src=\"https://raw.githubusercontent.com/satyapriyabarik/shreyansh/master/pics/shreyansh-2.jpg\">"+
 
 "</div>";
