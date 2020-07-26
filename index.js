@@ -18,11 +18,8 @@ var sdata='';
 var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
 $.getJSON(apidata,function(data){
    let sdataObj = data ;
-   console.log(sdataObj.length)
 for(var i=0;i< sdataObj.length;i++){
-   sdata+="<img src='+ data[i].imgurl +'>"
-   
-   console.log("nothing",sdata)
+   sdata+="<img src=\"+ sdataObj[i].imgurl +\">"
 }
 appDiv.innerHTML = "<div id='myGallery' class='spacegallery>"
 +sdata+
