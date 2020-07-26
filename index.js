@@ -9,8 +9,11 @@ import './js/spacegallery.js';
 import './js/jflip.js';
 import './js/jquery.blockUI.js';
 import './js/layout.js';
-import './js/moving_slider.js';
-import './js/rain.js';
+//import './js/moving_slider.js';
+//import './js/rain.js';
 // Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+const appDiv = document.getElementById('page');
+appDiv.innerHTML = "<div id='myGallery' class='spacegallery>"
++"<img src='https://raw.githubusercontent.com/satyapriyabarik/shreyansh/master/pics/shreyansh-1.jpg'>"+
+
+"</div>";
