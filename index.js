@@ -14,7 +14,7 @@ import './js/layout.js';
 //import './js/rain.js';
 // Write Javascript code!
 const appDiv = document.getElementById('page');
-appDiv.innerHTML = "<div id='myGallery' class='spacegallery></div>";
+appDiv.innerHTML = "<div id='myGallery' class='spacegallery'></div>";
 var sdata='';
 var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
 $.getJSON(apidata,function(data){
