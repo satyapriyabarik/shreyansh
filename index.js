@@ -2,6 +2,7 @@
 import './style.css';
 import './css/news.css';
 import './css/custom.css';
+import './css/bootstrap.min.css'
 import './css/spacegallery.css';
 import './js/jquerylib.js';
 import './js/jquery-1.7.1.min.js'

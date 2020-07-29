@@ -1,11 +1,11 @@
 #myGallery {
-	width: 600px;
-	margin: 50px auto 0px;
+	width: 90%;
+	margin: 0px auto;
 	height: 418px;
 }
 #myGallery img {
 	border: 2px solid #52697E;
 }
 a.loading {
-	background: #fff url(https://loading.io/mod/spinner/spinner/sample.gif) no-repeat center;
+	background: #fff url('https://loading.io/mod/spinner/spinner/sample.gif') no-repeat center;
 }
