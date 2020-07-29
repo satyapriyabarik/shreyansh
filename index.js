@@ -14,6 +14,7 @@ import './js/layout.js';
 //import './js/rain.js';
 // Write Javascript code!
 const appDiv = document.getElementById('page');
+appDiv.innerHTML = "<div id='myGallery' class='spacegallery></div>";
 var sdata='';
 var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
 $.getJSON(apidata,function(data){
@@ -21,8 +22,6 @@ $.getJSON(apidata,function(data){
 for(var i=0;i< sdataObj.length;i++){
    sdata+="<img src="+ sdataObj[i].imgurl +">"
 }
-appDiv.innerHTML = "<div id='myGallery' class='spacegallery>"
-+sdata+
-"</div>";
+document.getElementById('myGallery').innerHTML=sdata;
 })
 
