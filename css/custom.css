@@ -7,5 +7,5 @@
 	border: 2px solid #52697E;
 }
 a.loading {
-	background: #fff url('https://loading.io/mod/spinner/spinner/sample.gif') no-repeat center;
+	background: #fff url(https://loading.io/mod/spinner/spinner/sample.gif) no-repeat center;
 }
