@@ -5,7 +5,7 @@ import './css/custom.css';
 import './css/spacegallery.css';
 import './css/bootstrap.min.css';
 import './css/bookblock.css';
-import '.css/demo4.css';
+import './css/demo4.css';
 import './js/jquerylib.js';
 import './js/jquery-1.7.1.min.js'
 import './js/eye.js';
