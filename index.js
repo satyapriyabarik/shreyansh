@@ -21,15 +21,33 @@ import './js/custom.js';
 const appDiv = document.getElementById('page');
 appDiv.innerHTML = "<div id='myGallery' class='spacegallery'></div>";
 var sdata='';
+var ddata='';
 var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
 $.getJSON(apidata,function(data){
    let sdataObj = data ;
 for(var i=0;i< sdataObj.length;i++){
-   sdata+="<figure>"+
+   /*sdata+="<figure>"+
    "<img src="+ data[i].imgurl +">"+
    "<figcaption>"+ data[i].texture +"</figcaption>"+
-   "</figure>"
+   "</figure>"*/
+   ddata+="<section class='page'>"+
+            "<div class='front'>"+
+            "<h4>"+ data[i].texture +"</h4>"+
+            "<figure>"+
+            "<img src="+ data[i].imgurl +">"+
+            "<figcaption>"+ data[i].texture +"</figcaption>"+
+            "</figure>"+
+            "</div>"+
+            "<div class='back'>"+
+            "<figure>"+
+            "<img src="+ data[i].imgurl +">"+
+            "<figcaption>"+ data[i].texture +"</figcaption>"+
+            "</figure>"+
+            "</div>"+
+            "</section>"
+
 }
-document.getElementById('myGallery').innerHTML=sdata;
+//document.getElementById('myGallery').innerHTML=sdata;
+document.getElementById('book').innerHTML=sdata;
 })
 
