@@ -9,7 +9,7 @@ import './css/demo4.css';
 import './js/jquerylib.js';
 import './js/jquery-1.7.1.min.js'
 import './js/eye.js';
-//import './js/spacegallery.js';
+import './js/spacegallery.js';
 import './js/jflip.js';
 import './js/jquery.blockUI.js';
 import './js/layout.js';
@@ -33,4 +33,4 @@ for(var i=0;i< sdataObj.length;i++){
 }
 document.getElementById('myGallery').innerHTML=sdata;
 })
-$("#myGallery").jFlip(300,300,{background:"green",cornersTop:true,scale:"fit"});
+
