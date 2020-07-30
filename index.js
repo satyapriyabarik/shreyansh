@@ -15,7 +15,7 @@ import './js/jquery.blockUI.js';
 import './js/layout.js';
 import './js/jquery.bookblock.js';
 import './js/jquerypp.custom.js';
-import './js/modernizr.custom.js';
+//import './js/modernizr.custom.js';
 //import './js/moving_slider.js';
 //import './js/rain.js';
 // Write Javascript code!
