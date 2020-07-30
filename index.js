@@ -19,7 +19,7 @@ import './js/custom.js';
 //import './js/rain.js';
 // Write Javascript code!
 const appDiv = document.getElementById('page');
-appDiv.innerHTML = "<div id='myGallery' class='spacegallery'></div>";
+appDiv.innerHTML = "<div id='book' class='book'></div>";
 var sdata='';
 var ddata='';
 var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
