@@ -18,8 +18,8 @@ import './js/jquery.hammer.min.js';
 import './js/custom.js';
 //import './js/rain.js';
 // Write Javascript code!
-const appDiv = document.getElementById('page');
-appDiv.innerHTML = "<div id='book' class='book'></div>";
+const appDiv = document.getElementById('scene');
+appDiv.innerHTML = "<article id='book' class='book'></article>";
 var sdata='';
 var ddata='';
 var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shreyanshdata'
@@ -48,6 +48,6 @@ for(var i=0;i< sdataObj.length;i++){
 
 }
 //document.getElementById('myGallery').innerHTML=sdata;
-document.getElementById('book').innerHTML=sdata;
+document.getElementById('book').innerHTML=ddata;
 })
 
