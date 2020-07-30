@@ -14,7 +14,7 @@
 
 	// global
 	var $window = $(window),
-		Modernizr = window.Modernizr;
+		//Modernizr = window.Modernizr;
 
 	// https://gist.github.com/edankwan/4389601
 /*	Modernizr.addTest('csstransformspreserve3d', function () {
@@ -145,9 +145,9 @@
 				'msTransition': 'MSTransitionEnd',
 				'transition': 'transitionend'
 			};
-			this.transEndEventName = transEndEventNames[Modernizr.prefixed( 'transition' )] + '.bookblock';
+		//	this.transEndEventName = transEndEventNames[Modernizr.prefixed( 'transition' )] + '.bookblock';
 			// support css 3d transforms && css transitions && Modernizr.csstransformspreserve3d
-			this.support = Modernizr.csstransitions && Modernizr.csstransforms3d && Modernizr.csstransformspreserve3d;
+		//	this.support = Modernizr.csstransitions && Modernizr.csstransforms3d && Modernizr.csstransformspreserve3d;
 			// initialize/bind some events
 			this._initEvents();
 			// start slideshow
