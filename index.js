@@ -26,7 +26,7 @@ var apidata='https://my-json-server.typicode.com/satyapriyabarik/shreyansh/shrey
 $.getJSON(apidata,function(data){
    let sdataObj = data ;
 for(var i=0;i< sdataObj.length;i++){
-   sdata+="<img src="+ data[i].imgurl +">"
+   sdata+="<img src="+ data[i].imgurl +">"+"<p>"+ data[i].text +"</p>"
 }
 document.getElementById('myGallery').innerHTML=sdata;
 })
