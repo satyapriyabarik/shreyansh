@@ -17,7 +17,7 @@
 		Modernizr = window.Modernizr;
 
 	// https://gist.github.com/edankwan/4389601
-	Modernizr.addTest('csstransformspreserve3d', function () {
+/*	Modernizr.addTest('csstransformspreserve3d', function () {
 		var prop = Modernizr.prefixed('transformStyle');
 		var val = 'preserve-3d';
 		var computedStyle;
@@ -31,7 +31,7 @@
 
 		return (computedStyle === val);
 	});
-
+*/
 	/*
 	* debouncedresize: special jQuery event that happens once after a window resize
 	*
