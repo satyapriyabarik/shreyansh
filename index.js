@@ -13,6 +13,8 @@ import './js/jflip.js';
 import './js/jquery.blockUI.js';
 import './js/layout.js';
 import './js/prefixfree.min.js';
+import './js/hammer.min.js'
+import './js/jquery.hammer.min.js';
 import './js/custom.js';
 //import './js/rain.js';
 // Write Javascript code!
