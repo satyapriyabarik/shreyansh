@@ -7,7 +7,6 @@
   
   //$('.book').hammer().on("swipeleft", nextPage);
   //$('.book').hammer().on("swiperight", prevPage);
-  
 
 function prevPage() {
   $('.flipped')
