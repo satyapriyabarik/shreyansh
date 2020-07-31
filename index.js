@@ -32,7 +32,6 @@ for(var i=0;i< sdataObj.length;i++){
    "</figure>"*/
    ddata+="<section class='page'>"+
             "<div class='front'>"+
-            "<h4>"+ data[i].texture +"</h4>"+
             "<figure>"+
             "<img src="+ data[i].imgurl +">"+
             "<figcaption>"+ data[i].texture +"</figcaption>"+
@@ -49,5 +48,6 @@ for(var i=0;i< sdataObj.length;i++){
 }
 //document.getElementById('myGallery').innerHTML=sdata;
 document.getElementById('book').innerHTML=ddata;
+document.getElementsByClassName('page')[0].classList.add('active');
 })
 
