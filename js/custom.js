@@ -1,15 +1,15 @@
 var currentPage = 0;
 
-$('.book')
+jQuery('.book')
 .on('click', '.active', nextPage)
 .on('click', '.flipped', prevPage);
 
-$('.book').hammer().on("swipeleft", nextPage);
-$('.book').hammer().on("swiperight", prevPage);
+jQuery('.book').hammer().on("swipeleft", nextPage);
+jQuery('.book').hammer().on("swiperight", prevPage);
 
 function prevPage() {
   
-  $('.flipped')
+  jQuery('.flipped')
     .last()
     .removeClass('flipped')
     .addClass('active')
@@ -18,7 +18,7 @@ function prevPage() {
 }
 function nextPage() {
   
-  $('.active')
+  jQuery('.active')
     .removeClass('active')
     .addClass('flipped')
     .next('.page')
