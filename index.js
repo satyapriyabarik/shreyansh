@@ -6,7 +6,8 @@ import './css/spacegallery.css';
 import './css/bootstrap.min.css';
 import './css/jquerysctipttop.css';
 //import './js/jquerylib.js';
-
+import 'require.js'
+var $ = require( "jquery" );
 import './js/prefixfree.min.js';
 //import './js/hammer.min.js'
 //mport './js/jquery.hammer.min.js';
