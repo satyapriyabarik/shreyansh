@@ -27,16 +27,20 @@ for(var i=0;i< sdataObj.length;i++){
    "</figure>"*/
    ddata+="<section class='page'>"+
             "<div class='front'>"+
+            "<p>"+
             "<figure>"+
             "<img src="+ data[i].imgurl +">"+
             "<figcaption>"+ data[i].texture +"</figcaption>"+
             "</figure>"+
+            "</p>"+
             "</div>"+
             "<div class='back'>"+
+            "<p>"+
             "<figure>"+
             "<img src="+ data[i].imgurl +">"+
             "<figcaption>"+ data[i].texture +"</figcaption>"+
             "</figure>"+
+            "</p>"+
             "</div>"+
             "</section>"
 
