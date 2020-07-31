@@ -51,4 +51,4 @@ document.getElementById('book').innerHTML=ddata;
 document.getElementsByClassName('page')[0].classList.add('active');
 })
 
-import './js/custom.js';
+//import './js/custom.js';
