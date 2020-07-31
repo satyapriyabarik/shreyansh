@@ -8,10 +8,10 @@ import './css/jquerysctipttop.css';
 //import './js/jquerylib.js';
 import 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'
 //import './js/eye.js';
-import './js/spacegallery.js';
-import './js/jflip.js';
-import './js/jquery.blockUI.js';
-import './js/layout.js';
+//import './js/spacegallery.js';
+//import './js/jflip.js';
+//import './js/jquery.blockUI.js';
+//import './js/layout.js';
 import './js/prefixfree.min.js';
 import './js/hammer.min.js'
 import './js/jquery.hammer.min.js';
