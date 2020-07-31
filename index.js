@@ -8,16 +8,10 @@ import './css/jquerysctipttop.css';
 //import './js/jquerylib.js';
 import 'require.js'
 var $ = require( "jquery" );
-//import './js/eye.js';
-//import './js/spacegallery.js';
-//import './js/jflip.js';
-//import './js/jquery.blockUI.js';
-//import './js/layout.js';
 import './js/prefixfree.min.js';
-import './js/hammer.min.js'
-import './js/jquery.hammer.min.js';
-
-//import './js/rain.js';
+//import './js/hammer.min.js'
+//mport './js/jquery.hammer.min.js';
+import './js/custom.js';
 // Write Javascript code!
 const appDiv = document.getElementById('scene');
 appDiv.innerHTML = "<article id='book' class='book'></article>";
@@ -52,4 +46,3 @@ document.getElementById('book').innerHTML=ddata;
 document.getElementsByClassName('page')[0].classList.add('active');
 })
 
-//import './js/custom.js';
