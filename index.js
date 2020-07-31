@@ -6,7 +6,8 @@ import './css/spacegallery.css';
 import './css/bootstrap.min.css';
 import './css/jquerysctipttop.css';
 //import './js/jquerylib.js';
-import './js/jquery.js'
+import 'require.js'
+var $ = require( "jquery" );
 //import './js/eye.js';
 //import './js/spacegallery.js';
 //import './js/jflip.js';

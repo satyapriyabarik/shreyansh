@@ -2,5 +2,9 @@
   "name": "js-trvrrz",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "require.js": "^1.0.0",
+    "requirejs": "^2.3.6"
+  }
 }
