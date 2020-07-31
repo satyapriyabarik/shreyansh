@@ -1,6 +1,7 @@
-import 'require.js';
-var $ = require( "jquery" );
-  currentPage = 0;
+
+  import 'require.js';
+  var $ = require( "jquery" );
+  var currentPage = 0;
 
   $('.book')
   .on('click', '.active', nextPage)
@@ -8,6 +9,7 @@ var $ = require( "jquery" );
   
   //$('.book').hammer().on("swipeleft", nextPage);
   //$('.book').hammer().on("swiperight", prevPage);
+  
 
 function prevPage() {
   $('.flipped')
