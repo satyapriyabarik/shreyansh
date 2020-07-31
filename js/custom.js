@@ -1,4 +1,5 @@
-
+import 'require.js';
+var $ = require( "jquery" );
   currentPage = 0;
 
   $('.book')
