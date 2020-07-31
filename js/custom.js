@@ -1,15 +1,16 @@
-var currentPage = 0;
+document.ready(function(){
+  currentPage = 0;
 
-jQuery('.book')
-.on('click', '.active', nextPage)
-.on('click', '.flipped', prevPage);
-
-jQuery('.book').hammer().on("swipeleft", nextPage);
-jQuery('.book').hammer().on("swiperight", prevPage);
-
-function prevPage() {
+  $('.book')
+  .on('click', '.active', nextPage)
+  .on('click', '.flipped', prevPage);
   
-  jQuery('.flipped')
+  $('.book').hammer().on("swipeleft", nextPage);
+  $('.book').hammer().on("swiperight", prevPage);
+  
+}) 
+function prevPage() {
+  $('.flipped')
     .last()
     .removeClass('flipped')
     .addClass('active')
@@ -17,13 +18,10 @@ function prevPage() {
     .removeClass('active');
 }
 function nextPage() {
-  
-  jQuery('.active')
+  $('.active')
     .removeClass('active')
     .addClass('flipped')
     .next('.page')
     .addClass('active')
     .siblings();
-    
-    
 }
