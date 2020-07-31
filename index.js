@@ -15,7 +15,7 @@ import './js/jquery.js'
 import './js/prefixfree.min.js';
 import './js/hammer.min.js'
 import './js/jquery.hammer.min.js';
-import './js/custom.js';
+
 //import './js/rain.js';
 // Write Javascript code!
 const appDiv = document.getElementById('scene');
@@ -51,3 +51,4 @@ document.getElementById('book').innerHTML=ddata;
 document.getElementsByClassName('page')[0].classList.add('active');
 })
 
+import './js/custom.js';
