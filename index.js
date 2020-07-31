@@ -5,8 +5,8 @@ import './css/custom.css';
 import './css/spacegallery.css';
 import './css/bootstrap.min.css';
 import './css/jquerysctipttop.css';
-import './js/jquerylib.js';
-import './js/jquery.min.js'
+//import './js/jquerylib.js';
+import './js/jquery.js'
 //import './js/eye.js';
 //import './js/spacegallery.js';
 //import './js/jflip.js';
