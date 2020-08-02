@@ -39,6 +39,6 @@ for(var i=0;i< sdataObj.length;i++){
 }
 //document.getElementById('myGallery').innerHTML=sdata;
 document.getElementById('book').innerHTML=ddata;
-document.getElementsByClassName('page')[0].classList.add('active');
+//document.getElementsByClassName('page')[0].classList.add('active');
 })
 
